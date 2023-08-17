@@ -1,0 +1,154 @@
+html {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: #0b131e;
+    color: white;
+    padding: 40px;
+}
+.title{
+    margin-left: 180px;
+    display: flex;
+    align-items: center;
+}
+.search-input{
+    margin-left: 900px;
+}
+.search-input input{
+    height: 35px;
+    width: 250px;
+    background-color:#202b3b;
+    border: 1px solid #202b3b;
+    border-radius: 20px;
+    padding-left: 30px;
+}
+button{
+    width: 35px;
+    height: 35px;
+    margin-left: 25px;
+    background-color: #202b3b;
+    border: 1px solid #202b3b;
+    border-radius: 100%;
+}
+button img{
+    width: 15px;
+}
+.title h2{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.title p {
+    font-size: 25px;
+    margin-top: 0px;
+}
+
+
+.todayInfo {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 150px
+}
+
+.todayMain{
+    margin-left: 70px;
+}
+.todayMainInfo img{
+    width: 300px;
+}
+.todayMainInfo {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.todayMainInfo h2 {
+    font-size: 150px;
+    margin-bottom: 0px;
+    margin-top: 35px;
+}
+.todayMainInfo p {
+    margin-top: 0px;
+    font-size: 30px;
+}
+
+
+.todayMoreInfo{
+    background-color: #202b3b;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding: 40px 110px;
+    padding-right: 20px;
+    border-radius: 30px;
+    margin-right: 65px;
+}
+.todayMoreInfo h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.todayMoreInfo p {
+    font-size: 22px;
+    color: lightgrey;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+.todayMoreInfo div:not(:last-child){
+    border-right: 1px solid lightgray;
+    padding-right: 60px;
+}
+.todayMoreInfo div:nth-child(1){
+    width: 50px;
+    padding-right: 80px;
+}
+.todayMoreInfo div:nth-child(2) {
+    width: 50px;
+    padding-left: 10px;
+    padding-right: 90px;
+}
+.todayMoreInfo div:nth-child(3) {
+    width: 50px;
+    padding-left: 20px;
+    padding-right: 100px;
+}
+
+
+/* -----FORECAST------ */
+
+.forecast{
+    margin-top: 100px;
+}
+.forecast-title{
+    margin-left: 110px;
+    margin-bottom: 40px;
+    font-size: 28px;
+}
+.forecastInfo{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.forecastInfo img{
+    width: 150px;
+}
+.dayForecast{
+    text-align: center;
+    background-color: #202b3b;
+    border-radius: 20px;
+    padding: 20px 20px;
+}
+.dayForecast h3{
+    font-size: 25px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    color: lightgray;
+}
+.dayForecast p {
+    font-size: 22px;
+    margin-top: 0px;
+}
+.dayForecast .high{
+    color:white;
+}
+.dayForecast .low {
+    color: lightgray;
+}

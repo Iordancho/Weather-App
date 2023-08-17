@@ -1,0 +1,2 @@
+bg color tabs: #202b3b;
+bg color: #0b131e;
