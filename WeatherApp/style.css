@@ -13,26 +13,30 @@ body {
     align-items: center;
 }
 .search-input{
-    margin-left: 900px;
+    margin-left: 850px;
 }
 .search-input input{
-    height: 35px;
-    width: 250px;
+    height: 45px;
+    width: 300px;
+    color: white;
     background-color:#202b3b;
     border: 1px solid #202b3b;
-    border-radius: 20px;
+    border-radius: 17px;
     padding-left: 30px;
 }
 button{
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
     margin-left: 25px;
     background-color: #202b3b;
     border: 1px solid #202b3b;
     border-radius: 100%;
 }
+button:hover{
+    cursor: pointer;
+}
 button img{
-    width: 15px;
+    width: 18px;
 }
 .title h2{
     font-size: 50px;
