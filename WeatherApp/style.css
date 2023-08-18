@@ -7,6 +7,9 @@ body {
     color: white;
     padding: 40px;
 }
+.today{
+    margin-top: 80px;
+}
 .title{
     margin-left: 180px;
     display: flex;
@@ -116,43 +119,6 @@ button img{
 }
 
 
-/* -----FORECAST------ */
 
-.forecast{
-    margin-top: 100px;
-}
-.forecast-title{
-    margin-left: 110px;
-    margin-bottom: 40px;
-    font-size: 28px;
-}
-.forecastInfo{
-    display: flex;
-    gap: 50px;
-    justify-content: center;
-}
-.forecastInfo img{
-    width: 150px;
-}
-.dayForecast{
-    text-align: center;
-    background-color: #202b3b;
-    border-radius: 20px;
-    padding: 20px 20px;
-}
-.dayForecast h3{
-    font-size: 25px;
-    margin-bottom: 0px;
-    margin-top: 5px;
-    color: lightgray;
-}
-.dayForecast p {
-    font-size: 22px;
-    margin-top: 0px;
-}
-.dayForecast .high{
-    color:white;
-}
-.dayForecast .low {
-    color: lightgray;
-}
+
+

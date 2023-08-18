@@ -11,93 +11,51 @@
 <body>
     <section class = today>
         <div class="title">
-            <div class = "location">
+            <div id="location" class = "location">
                 <h2>London, UK</h2>
                 <p>Monday 29 August</p>
             </div>
             <div class="search-input">
                 <input id="searchInput" placeholder="Search for cities" type="search" id="city-search" name="city-search">
             </div>
-            <button type ="button"><img src="Images/search.png" alt=""></button>
+            <button id="search-btn" type ="button"><img src="Images/search.png" alt=""></button>
         </div>
         <div class = "todayInfo">
             <div class = "todayMain">
                 <div class = "todayMainInfo">
-                    <div><img src="Images/mist.png" alt=""></div>
+                    <div><img id="weather-icon" src="Images/mist.png" alt=""></div>
                     <div>
-                        <h2>21&deg;</h2>
-                        <p>Mostly sunny</p>
+                        <h2><span id="degree">21</span>&deg;</h2>
+                        <p id="desc">Mostly sunny</p>
                     </div>
                 </div>
             </div>
     
             <div class = "todayMoreInfo">
                 <div>
-                    <h3>23&deg;</h3>
+                    <h3><span id="degree-high">23</span>&deg;</h3>
                     <p>High</p>
 
-                    <h3>14&deg;</h3>
+                    <h3><span id="degree-low">14</span>&deg;</h3>
                     <p>Low</p>
                 </div>
                 <div>
-                    <h3>7mph</h3>
+                    <h3><span id="wind">7</span>mph</h3>
                     <p>Wind</p>
 
-                    <h3>0%</h3>
-                    <p>Rain</p>
+                    <h3><span id="humidity">0</span>%</h3>
+                    <p>Humidity</p>
                 </div>
                 <div>
-                    <h3>05:27</h3>
+                    <h3><span id="sunrise">05:27</span></h3>
                     <p>Sunrise</p>
 
-                    <h3>20:57</h3>
+                    <h3><span id="sunset">20:57</span></h3>
                     <p>Sunset</p>
                 </div>
             </div>
         </div>
     </section>
-
-    <section class="forecast">
-        <h2 class = "forecast-title">7-DAY FORECAST</h2>
-        <div class = "forecastInfo">
-            <div class = "dayForecast">
-                <h3>Today</h3>
-                <img src="Images/clear.png" alt="">
-                <p><span class="high">36</span> / <span class="low">22</span></p>
-            </div>
-            <div class="dayForecast">
-                <h3>Mon</h3>
-                <img src="Images/clear.png" alt="">
-                <p><span class="high">36</span> / <span class="low">22</span></p>
-            </div>
-            <div class="dayForecast">
-                <h3>Tue</h3>
-                <img src="Images/clouds.png" alt="">
-                <p><span class="high">36</span> / <span class="low">22</span></p>
-            </div>
-            <div class="dayForecast">
-                <h3>Wen</h3>
-                <img src="Images/clear.png" alt="">
-                <p><span class = "high">36</span> / <span class = "low">22</span></p>
-            </div>
-            <div class="dayForecast">
-                <h3>Thu</h3>
-                <img src="Images/clear.png" alt="">
-                <p><span class="high">36</span> / <span class="low">22</span></p>
-            </div>
-            <div class="dayForecast">
-                <h3>Fri</h3>
-                <img src="Images/clear.png" alt="">
-                <p><span class="high">36</span> / <span class="low">22</span></p>
-            </div>
-            <div class="dayForecast">
-                <h3>Sat</h3>
-                <img src="Images/clear.png" alt="">
-                <p><span class="high">36</span> / <span class="low">22</span></p>
-            </div>
-        </div>
-    </section>
-
 
     <script src="./app.js"></script>
 </body>
